@@ -1,9 +1,10 @@
 {
   "name": "braille-translator",
   "version": "1.0.0",
-  "description": "",
+  "description": "The code is used to search for the word \"success\" in a text input field. The code above uses the onkeyup event to check if the word \"success\" has been entered and then change it to lowercase.",
   "main": "index.js",
-  "type": "module",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass --watch public/scss -o public/css"
@@ -17,10 +18,5 @@
   "bugs": {
     "url": "https://github.com/tmchuynh/Braille-Translator/issues"
   },
-  "homepage": "https://github.com/tmchuynh/Braille-Translator#readme",
-  "dependencies": {
-    "braille": "^1.1.0",
-    "require": "^2.4.20",
-    "requirejs": "^2.3.6"
-  }
+  "homepage": "https://github.com/tmchuynh/Braille-Translator#readme"
 }
