@@ -1,16 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="public/css/main.css">
-    </head>
-    <body>
-        
-        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-        <script type="module" src="public/js/br.js"></script>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/css/main.css">
+</head>
+
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand">Navbar</a>
+        </div>
+    </nav>
+
+    <section class="section container">
+        <div class="translate-section d-flex w-100 p-5">
+            <input type="text" class="form-control mx-4">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </div>
+    </section>
+
+    <section class="section container">
+        <div class="introduction">
+            <h2>Getting Started with Braille</h2>
+            <p>For every letter in the English alphabet, there is a braille character. And each braille letter is made
+                of a combination of raised dots in the braille cell.</p>
+            <div class="text-center">
+                <img src="public/imgs/alphabet.png" alt="alphabet" />
+            </div>
+            <h2>The Braille Cell</h2>
+            <p>The braille cell is comprised of six dots arranged in two columns and three rows. Each dot has a number 1-6. Beginning in the top left corner of the cell is dot 1. Moving down the column to the middle row is dot 2 and in the bottom left corner is dot 3. In the top right corner is dot 4 while the middle dot in the right column is dot 5. The bottom right corner is dot 6. </p>
+            <div class="text-center">
+                <img src="public/imgs/braille_cell.png" alt="braille_cell" />
+            </div>
+            <h2>History of Braille</h2>
+            <p>Louis Braille invented the braille system in 1824 at the age of fifteen and continued to improve upon it throughout his lifetime. We still continue to make updates to braille today. In  2016, the United States switched to the Unified English Braille code (UEB) from the American version of braille. Every year on January 4th, Louis Braille’s birthday, we celebrate World Braille Day to raise awareness of the importance of braille literacy and inclusion.</p>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script type="module" src="public/js/br.js"></script>
+</body>
+
 </html>
