@@ -7,3 +7,12 @@ section {
   display: flex;
   justify-content: center;
   align-items: center; }
+
+.searching {
+  display: flex;
+  flex-direction: column; }
+  .searching * {
+    border: 1px solid black; }
+  .searching .display-section {
+    height: 3rem;
+    width: 100%; }

@@ -9,3 +9,15 @@ section {
     justify-content: center;
     align-items: center;
 }
+
+.searching {
+    display: flex;
+    flex-direction: column;
+    * {
+        border: 1px solid black;
+    }
+    .display-section {
+        height: 3rem;
+        width: 100%;
+    }
+}
