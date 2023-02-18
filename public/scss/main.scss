@@ -1,13 +1,38 @@
+:root {
+    --major-text: #6665DD;
+    --small-text: #dadbe9;
+    --background-color: #000500;
+}
+
+.light {
+    --major-text: #3e3bf0;
+    --small-text: #1b1a6e;
+    --background-color: #e4dbc0;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    background-color: var(--background-color);
+    color: var(--major-text);
+}
+
+nav {
+    background-color: var(--major-text);
+}
+
 section {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
+    p {
+        color: var(--small-text);
+    }
 }
 
 .searching {
@@ -16,8 +41,23 @@ section {
     * {
         border: 1px solid black;
     }
+    button {
+        background-color: var(--major-text);
+        color: var(--small-text);
+        &:hover {
+            background-color: transparent;
+            border: 1px solid var(--major-text);
+        }
+    }
     .display-section {
-        height: 3rem;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         width: 100%;
+        img {
+            max-width: 100%;
+            height: 3rem;
+        }
     }
 }
