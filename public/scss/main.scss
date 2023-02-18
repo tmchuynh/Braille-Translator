@@ -4,12 +4,6 @@
     --background-color: #000500;
 }
 
-.light {
-    --major-text: #3e3bf0;
-    --small-text: #1b1a6e;
-    --background-color: #e4dbc0;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -40,14 +34,6 @@ section {
     flex-direction: column;
     * {
         border: 1px solid black;
-    }
-    button {
-        background-color: var(--major-text);
-        color: var(--small-text);
-        &:hover {
-            background-color: transparent;
-            border: 1px solid var(--major-text);
-        }
     }
     .display-section {
         height: fit-content;
