@@ -30,13 +30,17 @@ search_word.onkeyup = function () {
             var img = document.createElement("img");
             if (input[i] === " ") {
                 img.setAttribute("src", "public/imgs/space.png");
+                img.setAttribute("alt", "space");
             } else if (input[i] === ".") {
                 img.setAttribute("src", "public/imgs/period.png");
+                img.setAttribute("alt", "period");
             } else if (input[i] === ",") {
                 img.setAttribute("src", "public/imgs/comma.png");
+                img.setAttribute("alt", "comma");
             }
             else {
                 img.setAttribute("src", "public/imgs/" + input[i] + ".png");
+                img.setAttribute("alt", input[i]);
             }
         }
         display_section.appendChild(img);
